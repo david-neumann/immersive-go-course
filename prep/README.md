@@ -122,7 +122,7 @@ In general, work through each project like this:
 1. Make it **right**
 1. Optional: Make it **pretty** (or fast)
 
-Making it "right" means ensuring the structure is clear, reasonably simple, and documented, with error handling and tests in place. But it does't mean perfect!
+Making it "right" means ensuring the structure is clear, reasonably simple, and documented, with error handling and tests in place. But it doesn't mean perfect!
 
 In other words, resist the temptation to optimise or refactor individual pieces of the project, for example to use fancy techniques like go-routines and channels, until you have project working end-to-end. Sometimes it's only when you have the whole working project in front of you that you can see how the individual pieces should _really_ work, and optimising too early can waste time.
 
